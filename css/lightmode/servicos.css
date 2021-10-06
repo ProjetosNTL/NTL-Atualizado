@@ -1,0 +1,92 @@
+body {
+    background-color: #ececec;
+}
+
+.laranja {
+    color: #F58220;
+    width: 100%;
+    opacity: 1;
+    border: 3px solid #F58220;
+}
+
+.head {
+    background-position: center center;
+    background-size: cover;
+    min-height: 70vh;
+    max-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destaque {
+    margin-top: 100px;
+    color: #F58220;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.subtitulo {
+    color: #3a3a3a;
+    margin-top: 20px;
+}
+
+.topico {
+    margin-top: 35px;
+    color: #272727;
+    text-align: left;
+}
+
+.subtopico {
+    font-size: 20px;
+    color: #3a3a3a;
+    text-align: justify;
+}
+
+.nome-topico {
+    font-weight: bold;
+    text-align: center;
+}
+
+.servico {
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px;
+    transition: .5s;
+}
+
+.servico img {
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+.explicacao {
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+@media(max-width:1000px) {
+    .destaque {
+        margin-top: 150px;
+        font-size: 300px;
+    }
+    .subtitulo {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .subtopico {
+        font-size: 17px;
+    }
+    .explicacao {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
