@@ -53,6 +53,11 @@ a {
   height: 100%;
   margin: 0 5px 0 10px;
   overflow: hidden;
+  overflow-x: scroll;
+}
+
+.events-wrapper::-webkit-scrollbar {
+  background-color: transparent;
 }
 
 .cd-horizontal-timeline .events-wrapper::after, .cd-horizontal-timeline .events-wrapper::before {
@@ -326,24 +331,6 @@ a {
 
 .cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
   line-height: 1.6;
-}
-
-@media screen and ( max-width: 768px){
-
-  .cd-horizontal-timeline .events-wrapper {
-    position: relative;
-    height: 100%;
-    margin: 0 5px 0 10px;
-    overflow: hidden;
-    overflow-x: scroll;
-  }
-
-.events-wrapper::-webkit-scrollbar {
-    background-color: transparent;
-  }
-
-
-  
 }
 
 @media only screen and (min-width: 768px) {
