@@ -32,7 +32,7 @@ body::-webkit-scrollbar-thumb:hover {
   color: #F58220;
   width: 100%;
   opacity: 1;
-  border: 3px solid #F58220;
+  border: 3px solid #cac5c1;
 }
 
 .texto {
