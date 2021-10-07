@@ -915,12 +915,49 @@ a:link {
     height: 300px;
     width: 400px;
   }
+  .card-4-servicos{
+    background-color: transparent;
+    border: 2px solid #8d8985;
+  }
+
+  .card-4-servicos:hover{
+    background-color: transparent;
+    border: 2px solid #8d8985;
+  }
   .card-4-servicos h4 {
     color: black !important;
     font-size: 1.5rem;
     text-align: center;
     margin-top: 10px;
     font-weight: bold;
+  }
+
+  .circulo {
+    width: 60px;
+  }
+
+  .img-fluid {
+    display: none;
+  }
+
+  .containerTextCard {
+    width: 140px;
+  }
+  .containerTextCard h4{
+    width: 140px;
+  }
+
+  .containerImgCard {
+    width: 80px;
+    padding: 0;
+    margin: 0;
+  }
+
+  #servicos button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
   }
 
 }
