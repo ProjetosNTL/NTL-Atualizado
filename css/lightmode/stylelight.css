@@ -32,7 +32,7 @@ body::-webkit-scrollbar-thumb:hover {
   color: #F58220;
   width: 100%;
   opacity: 1;
-  border: 3px solid #cac5c1;
+  border: 3px solid #F58220;
 }
 
 .texto {
@@ -468,8 +468,12 @@ a:link {
   background-color: #8d8985;
   border-radius: 10px;
   height: 70px;
-  max-width: 400px;
+  width: 80vw;
   transition: 0.3s;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  margin: 0 4%;
 }
 
 .card-4-servicos:hover {
@@ -792,8 +796,8 @@ a:link {
   }
   .card-4-servicos h4 {
     color: black !important;
-    font-size: 20px;
-    text-align: justify;
+    font-size: 1.5rem;
+    text-align: center;
     margin-top: 10px;
     font-weight: bold;
   }
