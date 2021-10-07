@@ -132,7 +132,7 @@ a {
   transform: translateY(60px);
 }
 
-.cd-horizontal-timeline .events a::after {events-wrapper
+.cd-horizontal-timeline .events a::after {
   content: "";
   opacity: 0;
   position: absolute;
@@ -331,6 +331,15 @@ a {
 
 .cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
   line-height: 1.6;
+}
+
+.diferenciais-container {
+  margin: auto;
+}
+
+.diferenciais-container .col .card-4 {
+  padding: 0;
+  margin: auto;
 }
 
 @media only screen and (min-width: 768px) {
