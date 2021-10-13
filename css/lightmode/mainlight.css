@@ -726,6 +726,7 @@ nav a {
 .page-header {
   background-image: url('../../img/inicial.jpg');
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 @media screen and (max-width: 768px) {
