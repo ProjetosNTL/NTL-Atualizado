@@ -941,11 +941,11 @@ a:link {
   }
 
   .containerTextCard {
-    width: 140px;
+    width: 150px;
   }
-  .containerTextCard h4{
+  /* .containerTextCard h4{
     width: 140px;
-  }
+  } */
 
   .containerImgCard {
     width: 80px;
