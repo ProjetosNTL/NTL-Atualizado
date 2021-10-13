@@ -729,6 +729,30 @@ nav a {
   background-size: 100%;
 }
 
+/* #perguntasFrequentes {
+  width: 90vw;
+}
+ */
+.container-btn-modal {
+  display: grid;
+  grid-template-columns: 35% 35%;
+  gap: 10px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.container-btn-modal button {
+  margin: auto;
+}
+
+.container-btn-modal button div {
+  width: 150px;
+}
+.containerTextCard {
+  width: auto;
+}
+
+
 @media screen and (max-width: 768px) {
 
   .navbar {
@@ -1308,6 +1332,19 @@ nav a {
   .social-media-list a {
     margin: 0 auto;
   }
+
+  
+.container-btn-modal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 0;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.container-btn-modal button {
+  margin: auto;
+}
 
 }
 
