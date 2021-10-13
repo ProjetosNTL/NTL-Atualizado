@@ -713,6 +713,16 @@ nav a {
   z-index: 2;
 }
 
+.social-media-list {
+  display: flex;
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+.social-media-list a {
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 768px) {
 
   .navbar {
@@ -1283,6 +1293,16 @@ nav a {
   .subscribe-line .btn {
     margin: 0 auto;
   }
+
+  .social-media-list {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .social-media-list a {
+    margin: 0 auto;
+  }
+
 }
 
 @media screen and (max-width: 991px) {
