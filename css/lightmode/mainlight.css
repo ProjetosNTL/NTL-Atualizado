@@ -723,6 +723,11 @@ nav a {
   margin: 0 auto;
 }
 
+.page-header {
+  background-image: url('../../img/inicial.jpg');
+  background-repeat: no-repeat;
+}
+
 @media screen and (max-width: 768px) {
 
   .navbar {
