@@ -245,3 +245,14 @@ body, ul, li {
   grid-row-gap: 15px;
   margin-top: 30px;
 }
+
+#respostaHp p,
+#respostaDefesaCivil p,
+#respostaLcc p,
+#respostaConselhoRegional p,
+#respostaCorecon p,
+#respostaIphan p,
+#respostaIncra p{
+  padding: 0 10px;
+  font-size: 1.3rem;
+}
