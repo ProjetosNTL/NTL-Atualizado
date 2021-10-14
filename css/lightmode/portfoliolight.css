@@ -252,7 +252,16 @@ body, ul, li {
 #respostaConselhoRegional p,
 #respostaCorecon p,
 #respostaIphan p,
-#respostaIcra p{
+#respostaIcra p,
+#respostaIncra p,
+#respostaPositivo p,
+#respostaTorino p,
+#respostaSenac p,
+#respostaAns p,
+#respostaIbm p,
+#respostaServers p,
+#respostaSolution p
+{
   padding: 0 10px;
   font-size: 1.3rem;
 }
