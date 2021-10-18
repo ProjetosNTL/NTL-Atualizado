@@ -31,10 +31,13 @@
           <span class="navbar-toggler-bar bar2"></span>
           <span class="navbar-toggler-bar bar3"></span>
         </button> -->
+        <button id="openMenu"> &#x2630; </button>
       </div>
+      
 
       <div class="collapse navbar-collapse justify-content-end menu" id="navigation">
         <ul class="navbar-nav">
+          <button id="closeMenu"> X </button>
           <li class="nav-item">
             <a class="nav-link" href="#">INICIO</a>
           </li>
@@ -56,6 +59,7 @@
         </ul>
       </div>
     </div>
+    
   </nav>
 
   <div class="sectioninicio">
@@ -3713,48 +3717,17 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
   <script src="dist/aos.js"></script>
-  <!-- 
   <script>
-    $(document).ready(function () {
-      $('[data-toggle="popover"]').popover({
-        html:true,
-        placement: 'top',
-        trigger: 'hover'
-        });
-    });
-
-    $('.popover-dismiss').popover({
-      trigger: 'focus'
+    
+    $('#openMenu').on('click', () => {
+      document.querySelector('#navigation').style.marginRight = '48vw';
     })
 
- $(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
+    $('#closeMenu').on('click', () => {
+      document.querySelector('#navigation').style.marginRight = '0'
+   })
 
-$('[data-toggle="tooltip"]').tooltip({
-    trigger : 'hover'
-}) 
-
-
-    AOS.init({
-      easing: 'ease-in-out-sine'
-    });
-
-    setInterval(addItem, 300);
-
-    var itemsCounter = 1;
-    var container = document.getElementById('aos-demo');
-
-    function addItem() {
-      if (itemsCounter > 30) return;
-      var item = document.createElement('div');
-      item.classList.add('aos-item');
-      item.setAttribute('data-aos', 'fade-up');
-      // item.innerHTML = '<div class="aos-item__inner"><h3>' + itemsCounter + '</h3></div>';
-      container.appendChild(item);
-      // itemsCounter++;
-    }
-  </script> -->
+  </script>
 
 </body>
 

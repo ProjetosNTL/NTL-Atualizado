@@ -809,7 +809,30 @@ a:link {
   max-width: 700px;
 }
 
+#openMenu, #closeMenu  {
+display: none;
+}
+
 @media screen and ( max-width:700px ) {
+  
+  #openMenu {
+    display: block;
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    color: #fff;
+  }
+  
+  #closeMenu {
+    display: block;
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    color: #fff;
+    width: 35px;
+    margin-left: 120px;
+  }
+
 
   .navbar {
     height: 70px;

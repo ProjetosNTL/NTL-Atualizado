@@ -6,6 +6,7 @@
   padding: 0;
   background-color: #555555;
   box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+  border-bottom: 4px solid #F58220;
 }
 
 nav a {
