@@ -459,51 +459,75 @@ a:link {
 }
 
 .card-4 {
-  background-color: transparent;
-  border: 2px solid #8d8985;
+  background-color: #e4914a;
   border-radius: 10px;
   height: 100%;
-  transition: 0.3s;
-  display: flex;
-  justify-content: center;
-  margin: 0 4%;
 }
 
+.container-btn-servicos {
+  width: 70vw;
+  margin: 0 5vw;
+  display: grid; 
+  grid-template-columns: 1.2fr 1.1fr 1.1fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "Um . dois"
+    ". cinco ."
+    "tres . quatro"; 
+}
+
+.container-btn-servicos button {
+  background-color: transparent;
+}
+
+.container-btn-servicos .umBtn { grid-area: Um; }
+
+.container-btn-servicos .doisBtn { grid-area: dois; }
+
+.container-btn-servicos .tresBtn { grid-area: tres; }
+
+.container-btn-servicos .quatroBtn { grid-area: quatro; }
+
+.container-btn-servicos .cincoBtn { grid-area: cinco; }
+
+
 .card-4-servicos {
-  background-color: #8d8985;
+  background-color: transparent;
   border-radius: 10px;
-  height: 70px;
-  width: 80vw;
   transition: 0.3s;
-  height: 10%;
-  display: flex;
   justify-content: center;
+  align-items: center;
   margin: 0 4%;
+  border: 2px solid #8d8985;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-4-servicos:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.282);
+
 }
 
 .card-4 h4 {
-  color: black;
-  font-size: 2.1rem;
+  color: white;
+  font-size: 20px;
   margin-bottom: 10px;
-  /* font-weight: bold; */
+  font-weight: bold;
 }
 
 .card-4-servicos h4 {
   color: black !important;
-  font-size: 20px;
-  text-align: justify;
+  font-size: 1.5rem;
+  text-align: center;
   margin-top: 10px;
   font-weight: bold;
 }
 
 .card-4 p {
-  color: black;
-    font-size: 1.5rem;
-    text-align: center;
+  color: white;
+  font-size: 15px;
 }
 
 .card-4-servicos p {
@@ -862,13 +886,12 @@ a:link {
     font-size: 30px;
   }
   .card-4 {
-    width: 190px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
   }
   .card-4 p {
-    color: black;
-    font-size: 1.3rem;
-    text-align: center;
+    color: #272727;
+    font-size: 10px;
   }
   .icone {
     width: 30px;
