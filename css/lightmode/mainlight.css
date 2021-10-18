@@ -1538,6 +1538,7 @@ nav a {
   .social-media-list {
     display: flex;
     margin: 0 auto;
+    margin-top: 45px;
   }
 
   .social-media-list a {
