@@ -506,8 +506,8 @@ a:link {
 }
 
 .card-4-servicos:hover {
-  background-color: transparent;
-  border: 2px solid #8d8985;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.282);
+
 }
 
 .card-4 h4 {
