@@ -821,6 +821,9 @@ nav a {
   #cd-vertical-nav {
     display: none !important;
   }
+  .container-btn-modal button div {
+    width: 150px;
+  }
 
   .coloured-cards .card-big-shadow {
     margin: 0 auto;
