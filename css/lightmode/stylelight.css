@@ -425,7 +425,7 @@ a:link {
 }
 
 .card-img1 {
-  margin-top: 5px;
+  margin: 5px;
   height: 60px;
   width: 80px;
 }
@@ -446,6 +446,7 @@ a:link {
 }
 
 .card-img5 {
+  margin-bottom: 10px;
   height: 70px;
   width: 95px;
 }
@@ -534,11 +535,11 @@ a:link {
   font-size: 15px;
   text-align: center;
 }
-
+/* 
 .card-4-servicos p {
   color: white;
   font-size: 15px;
-}
+} */
 
 .card-header {
   background-color: transparent;
@@ -813,7 +814,7 @@ a:link {
 display: none;
 }
 
-@media screen and ( max-width:700px ) {
+@media screen and ( max-width:768px ) {
   
   #openMenu {
     display: block;
@@ -856,14 +857,14 @@ display: none;
   .container-btn-servicos {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     margin: auto;
-    width: 91vw;
+    width: 90vw;
   }
   
 }
 
-@media (max-width:1000px) {
+@media (max-width:768px) {
   .clientes {
     margin: 5px 20px 10px 20px;
   }
@@ -1006,6 +1007,9 @@ display: none;
   .card-4-servicos{
     background-color: transparent;
     border: 2px solid #8d8985;
+    width: 415px;
+    height: 75px;
+    flex-direction: row;
   }
 
   .card-4-servicos:hover{
@@ -1038,7 +1042,9 @@ display: none;
   .containerImgCard {
     width: 80px;
     padding: 0;
-    margin: 0;
+    margin: 10px;
+    justify-items: center;
+    align-items: center;
   }
 
   #servicos button {
@@ -1046,6 +1052,200 @@ display: none;
     flex-direction: row;
     justify-content: space-between;
     margin: auto;
+    width: 90vw;
+  }
+
+}
+
+@media (min-width:768px) and (max-width: 1000px){
+  .clientes {
+    margin: 5px 20px 10px 20px;
+  }
+  .clientes:nth-child(1) {
+    width: 60px;
+    height: 60px;
+  }
+  .clientes:nth-child(2) {
+    height: 80px;
+    width: 50px;
+  }
+  .clientes:nth-child(3) {
+    height: 70px;
+    width: 100px;
+  }
+  .clientes:nth-child(4) {
+    height: 50px;
+    width: 100px;
+  }
+  .clientes:nth-child(5) {
+    height: 60px;
+    width: 90px;
+  }
+  .clientes:nth-child(6) {
+    height: 30px;
+    width: 140px;
+  }
+
+  
+  h1, h2 {
+    font-size: 27px !important;
+  }
+  .slogan {
+    font-size: 60px;
+  }
+  .botao {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0;
+    font-size: 15px;
+    border-radius: 30px;
+    transition: 1s ease-in-out;
+  }
+  .ligue {
+    background-color: #F58220;
+    color: #FFF;
+  }
+  .botao:hover {
+    background-color: #28ddf5;
+    color: #FFF;
+    transition: 0.7s ease-out;
+  }
+  .imagemservico {
+    width: 450px;
+    height: 300px;
+  }
+  .tecnologia {
+    height: 200px;
+    height: 200px;
+  }
+  .textoinicio {
+    font-size: 30px;
+  }
+  .evolucao {
+    font-size: 30px;
+  }
+  .card-4 {
+    width: 150px;
+    height: 180px;
+  }
+  .card-4 p {
+    color: #272727;
+    font-size: 10px;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .icone {
+    width: 30px;
+    height: 30px;
+  }
+  .PARCERIAS {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .empresasparceiras {
+    margin: 15px;
+  }
+  .PARCERIAS img {
+    width: 45px;
+    height: 45px;
+  }
+  .margem {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  h1, h2 {
+    font-size: 27px;
+  }
+  .circle {
+    margin: 0 5px;
+  }
+  .saibamais {
+    margin: 0 auto;
+  }
+  .titulo {
+    font-size: 27px !important;
+  }
+  .paragrafo {
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  .unidadesimg {
+    width: 150px;
+  }
+  .sobre {
+    margin-top: 100px;
+  }
+  .social-media:hover {
+    border-radius: 30px;
+    padding: 16px 50px;
+    background-color: var(--verde);
+  }
+  .glass2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    pointer-events: none;
+    box-sizing: border-box;
+    backdrop-filter: blur(5px);
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+  }
+  .tecnologia {
+    height: 300px;
+    width: 400px;
+  }
+  .card-4-servicos{
+    background-color: transparent;
+    border: 2px solid #8d8985;
+    width: 415px;
+    height: 75px;
+    flex-direction: row;
+  }
+
+  .card-4-servicos:hover{
+    background-color: transparent;
+    border: 2px solid #8d8985;
+  }
+  .card-4-servicos h4 {
+    color: black !important;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .circulo {
+    width: 60px;
+  }
+
+  .img-fluid {
+    display: none;
+  }
+
+  .containerTextCard {
+    width: 150px;
+  }
+  /* .containerTextCard h4{
+    width: 140px;
+  } */
+
+  .containerImgCard {
+    width: 80px;
+    padding: 0;
+    margin: 10px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  #servicos button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 60vw;
   }
 
 }
