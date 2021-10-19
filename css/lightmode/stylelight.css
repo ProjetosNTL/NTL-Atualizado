@@ -4,7 +4,7 @@ body {
 }
 
 .backazul {
-  background-color: #647B99!important;
+  background-color: #647B99 !important;
   width: 100%;
 }
 
@@ -55,7 +55,9 @@ body::-webkit-scrollbar-thumb:hover {
   z-index: -1;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #272727;
   font-family: 'Cabin';
   font-size: 40px;
@@ -120,7 +122,8 @@ button:focus {
   border-radius: 60px;
 }
 
-.troca--sombra+label:before, .troca--sombra+label:after {
+.troca--sombra+label:before,
+.troca--sombra+label:after {
   display: block;
   position: absolute;
   top: 1px;
@@ -261,6 +264,7 @@ span {
     width: 40px;
     opacity: 0;
   }
+
   to {
     height: 43px;
     width: 43px;
@@ -371,6 +375,7 @@ a:link {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 500;
+  padding: 10px 20px;
 }
 
 .evolucao {
@@ -472,29 +477,39 @@ a:link {
 .container-btn-servicos {
   width: 70vw;
   margin: 0 5vw;
-  display: grid; 
-  grid-template-columns: 1.2fr 1.1fr 1.1fr; 
-  grid-template-rows: 1fr 1fr 1fr; 
-  gap: 0px 0px; 
-  grid-template-areas: 
+  display: grid;
+  grid-template-columns: 1.2fr 1.1fr 1.1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
     "Um . dois"
     ". cinco ."
-    "tres . quatro"; 
+    "tres . quatro";
 }
 
 .container-btn-servicos button {
   background-color: transparent;
 }
 
-.container-btn-servicos .umBtn { grid-area: Um; }
+.container-btn-servicos .umBtn {
+  grid-area: Um;
+}
 
-.container-btn-servicos .doisBtn { grid-area: dois; }
+.container-btn-servicos .doisBtn {
+  grid-area: dois;
+}
 
-.container-btn-servicos .tresBtn { grid-area: tres; }
+.container-btn-servicos .tresBtn {
+  grid-area: tres;
+}
 
-.container-btn-servicos .quatroBtn { grid-area: quatro; }
+.container-btn-servicos .quatroBtn {
+  grid-area: quatro;
+}
 
-.container-btn-servicos .cincoBtn { grid-area: cinco; }
+.container-btn-servicos .cincoBtn {
+  grid-area: cinco;
+}
 
 
 .card-4-servicos {
@@ -534,6 +549,7 @@ a:link {
   font-size: 15px;
   text-align: center;
 }
+
 /* 
 .card-4-servicos p {
   color: white;
@@ -584,6 +600,7 @@ a:link {
   from {
     width: 0;
   }
+
   to {
     width: 10em;
   }
@@ -593,6 +610,7 @@ a:link {
   from {
     border-right-color: rgba(129, 129, 129, 0.75);
   }
+
   to {
     border-right-color: transparent;
   }
@@ -778,10 +796,10 @@ a:link {
 }
 
 .glass {
-  background: rgba( 255, 255, 255, 0.10);
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
-  backdrop-filter: blur( 8.5px);
-  -webkit-backdrop-filter: blur( 8.5px);
+  background: rgba(255, 255, 255, 0.10);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
   border-radius: 10px;
   z-index: -2;
 }
@@ -809,12 +827,13 @@ a:link {
   max-width: 700px;
 }
 
-#openMenu, #closeMenu  {
-display: none;
+#openMenu,
+#closeMenu {
+  display: none;
 }
 
-@media screen and ( max-width:768px ) {
-  
+@media screen and (max-width:768px) {
+
   #openMenu {
     display: block;
     border: none;
@@ -823,11 +842,11 @@ display: none;
     margin-right: 40px;
     padding: 0 0 10px 0;
   }
-   
+
   #openMenu svg {
     width: 20px;
   }
-  
+
   #closeMenu {
     display: block;
     border: none;
@@ -837,7 +856,7 @@ display: none;
     width: 35px;
     margin-left: 90px;
   }
-    
+
   .texto {
     font-size: 1.5rem;
     padding: 0 5px;
@@ -848,7 +867,7 @@ display: none;
     height: 70px;
     padding: 3px;
   }
-    
+
   .nomeempresa img {
     width: 150px;
     height: auto;
@@ -861,45 +880,54 @@ display: none;
     margin: auto;
     width: 90vw;
   }
-  
+
 }
 
 @media (max-width:768px) {
   .clientes {
     margin: 5px 20px 10px 20px;
   }
+
   .clientes:nth-child(1) {
     width: 60px;
     height: 60px;
   }
+
   .clientes:nth-child(2) {
     height: 80px;
     width: 50px;
   }
+
   .clientes:nth-child(3) {
     height: 70px;
     width: 100px;
   }
+
   .clientes:nth-child(4) {
     height: 50px;
     width: 100px;
   }
+
   .clientes:nth-child(5) {
     height: 60px;
     width: 90px;
   }
+
   .clientes:nth-child(6) {
     height: 30px;
     width: 140px;
   }
 
-  
-  h1, h2 {
+
+  h1,
+  h2 {
     font-size: 27px !important;
   }
+
   .slogan {
     font-size: 60px;
   }
+
   .botao {
     display: inline-block;
     padding: 10px 20px;
@@ -908,85 +936,109 @@ display: none;
     border-radius: 30px;
     transition: 1s ease-in-out;
   }
+
   .ligue {
     background-color: #F58220;
     color: #FFF;
   }
+
   .botao:hover {
     background-color: #28ddf5;
     color: #FFF;
     transition: 0.7s ease-out;
   }
+
   .imagemservico {
     width: 450px;
     height: 300px;
   }
+
   .tecnologia {
     height: 200px;
     height: 200px;
   }
+
   .textoinicio {
     font-size: 30px;
+    padding: 5px;
   }
+
   .evolucao {
     font-size: 30px;
   }
+
   .card-4 {
     width: 150px;
     height: 180px;
   }
+
   .card-4 p {
     color: #272727;
     font-size: 10px;
     font-size: 1.1rem;
     text-align: center;
   }
+
   .icone {
     width: 30px;
     height: 30px;
   }
+
   .PARCERIAS {
     margin-top: 100px;
     margin-bottom: 100px;
   }
+
   .empresasparceiras {
     margin: 15px;
   }
+
   .PARCERIAS img {
     width: 45px;
     height: 45px;
   }
+
   .margem {
     margin-top: 100px;
     margin-bottom: 100px;
   }
-  h1, h2 {
+
+  h1,
+  h2 {
     font-size: 27px;
   }
+
   .circle {
     margin: 0 5px;
   }
+
   .saibamais {
     margin: 0 auto;
   }
+
   .titulo {
     font-size: 27px !important;
   }
+
   .paragrafo {
     margin-bottom: 40px;
     margin-top: 20px;
   }
+
   .unidadesimg {
     width: 150px;
   }
+
   .sobre {
     margin-top: 100px;
   }
+
   .social-media:hover {
     border-radius: 30px;
     padding: 16px 50px;
     background-color: var(--verde);
   }
+
   .glass2 {
     position: absolute;
     top: 0;
@@ -1000,11 +1052,13 @@ display: none;
     filter: blur(5px);
     -webkit-filter: blur(5px);
   }
+
   .tecnologia {
     height: 300px;
     width: 400px;
   }
-  .card-4-servicos{
+
+  .card-4-servicos {
     background-color: transparent;
     border: 2px solid #8d8985;
     width: 415px;
@@ -1012,10 +1066,11 @@ display: none;
     flex-direction: row;
   }
 
-  .card-4-servicos:hover{
+  .card-4-servicos:hover {
     background-color: transparent;
     border: 2px solid #8d8985;
   }
+
   .card-4-servicos h4 {
     color: black !important;
     font-size: 1.5rem;
@@ -1034,7 +1089,8 @@ display: none;
 
   .containerTextCard {
     width: 150px;
-  } 
+  }
+
   /* .containerTextCard h4{
     width: 140px;
   } */
@@ -1065,42 +1121,51 @@ display: none;
 
 }
 
-@media (min-width:768px) and (max-width: 1000px){
+@media (min-width:768px) and (max-width: 1000px) {
   .clientes {
     margin: 5px 20px 10px 20px;
   }
+
   .clientes:nth-child(1) {
     width: 60px;
     height: 60px;
   }
+
   .clientes:nth-child(2) {
     height: 80px;
     width: 50px;
   }
+
   .clientes:nth-child(3) {
     height: 70px;
     width: 100px;
   }
+
   .clientes:nth-child(4) {
     height: 50px;
     width: 100px;
   }
+
   .clientes:nth-child(5) {
     height: 60px;
     width: 90px;
   }
+
   .clientes:nth-child(6) {
     height: 30px;
     width: 140px;
   }
 
-  
-  h1, h2 {
+
+  h1,
+  h2 {
     font-size: 27px !important;
   }
+
   .slogan {
     font-size: 60px;
   }
+
   .botao {
     display: inline-block;
     padding: 10px 20px;
@@ -1109,85 +1174,108 @@ display: none;
     border-radius: 30px;
     transition: 1s ease-in-out;
   }
+
   .ligue {
     background-color: #F58220;
     color: #FFF;
   }
+
   .botao:hover {
     background-color: #28ddf5;
     color: #FFF;
     transition: 0.7s ease-out;
   }
+
   .imagemservico {
     width: 450px;
     height: 300px;
   }
+
   .tecnologia {
     height: 200px;
     height: 200px;
   }
+
   .textoinicio {
     font-size: 30px;
   }
+
   .evolucao {
     font-size: 30px;
   }
+
   .card-4 {
     width: 150px;
     height: 180px;
   }
+
   .card-4 p {
     color: #272727;
     font-size: 10px;
     font-size: 1.1rem;
     text-align: center;
   }
+
   .icone {
     width: 30px;
     height: 30px;
   }
+
   .PARCERIAS {
     margin-top: 100px;
     margin-bottom: 100px;
   }
+
   .empresasparceiras {
     margin: 15px;
   }
+
   .PARCERIAS img {
     width: 45px;
     height: 45px;
   }
+
   .margem {
     margin-top: 100px;
     margin-bottom: 100px;
   }
-  h1, h2 {
+
+  h1,
+  h2 {
     font-size: 27px;
   }
+
   .circle {
     margin: 0 5px;
   }
+
   .saibamais {
     margin: 0 auto;
   }
+
   .titulo {
     font-size: 27px !important;
   }
+
   .paragrafo {
     margin-bottom: 40px;
     margin-top: 20px;
   }
+
   .unidadesimg {
     width: 150px;
   }
+
   .sobre {
     margin-top: 100px;
   }
+
   .social-media:hover {
     border-radius: 30px;
     padding: 16px 50px;
     background-color: var(--verde);
   }
+
   .glass2 {
     position: absolute;
     top: 0;
@@ -1201,11 +1289,13 @@ display: none;
     filter: blur(5px);
     -webkit-filter: blur(5px);
   }
+
   .tecnologia {
     height: 300px;
     width: 400px;
   }
-  .card-4-servicos{
+
+  .card-4-servicos {
     background-color: transparent;
     border: 2px solid #8d8985;
     width: 415px;
@@ -1213,10 +1303,11 @@ display: none;
     flex-direction: row;
   }
 
-  .card-4-servicos:hover{
+  .card-4-servicos:hover {
     background-color: transparent;
     border: 2px solid #8d8985;
   }
+
   .card-4-servicos h4 {
     color: black !important;
     font-size: 1.5rem;
@@ -1236,6 +1327,7 @@ display: none;
   .containerTextCard {
     width: 150px;
   }
+
   /* .containerTextCard h4{
     width: 140px;
   } */
@@ -1270,22 +1362,27 @@ display: none;
     color: white !important;
     transition: .3s ease-in-out;
   }
+
   .btnorcamento:hover {
     transition: .3s ease-out;
     color: white !important;
     background-color: #e4914a !important;
   }
+
   .section-margin {
     margin-top: 50px;
     margin-bottom: 150px;
   }
+
   .featurette-heading {
     margin-top: 7rem;
   }
+
   .featurette-heading-lado {
     margin-top: 7rem;
     text-align: right;
   }
+
   .empresasparceiras {
     margin: 40px;
   }

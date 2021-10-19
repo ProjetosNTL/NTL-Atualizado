@@ -8,7 +8,9 @@
   --verde: #F58220;
 }
 
-body, ul, li {
+body,
+ul,
+li {
   margin: 0px;
   padding: 0px;
 }
@@ -17,6 +19,7 @@ body, ul, li {
   .grid-container {
     grid-template-columns: 1fr;
   }
+
   /* .menu, .grid-section, .copy {
     grid-column: 1;
   } */
@@ -24,15 +27,20 @@ body, ul, li {
     grid-template-columns: 100px 1fr;
     grid-gap: 10px;
   }
+
   /* .portfolio-lista {
     grid-column: 1;
   } */
-  .faq-lista, .dados, .mapa {
+  .faq-lista,
+  .dados,
+  .mapa {
     grid-column: 1 / 3;
   }
+
   .menu {
     margin-top: 0px;
   }
+
   .copy {
     margin-bottom: 0px;
   }
@@ -136,13 +144,14 @@ body, ul, li {
 .portfolio-btn .card-4-projetos h4 {
   color: black;
   margin: 0;
-} 
+}
 
 .portfolio-btn .card-4-projetos:hover {
   box-shadow: 0 0 15px rgb(0 0 0 / 28%);
 }
 
-.portfolio-btn h4, .portfolio-btn-cel h4 {
+.portfolio-btn h4,
+.portfolio-btn-cel h4 {
   color: white;
   font-size: 20px;
   margin-bottom: 15px;
@@ -270,8 +279,7 @@ body, ul, li {
 #respostaAns p,
 #respostaIbm p,
 #respostaServers p,
-#respostaSolution p
-{
+#respostaSolution p {
   padding: 0 10px;
   font-size: 1.3rem;
 }

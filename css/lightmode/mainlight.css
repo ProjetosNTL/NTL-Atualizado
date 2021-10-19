@@ -806,6 +806,10 @@ nav a {
     border-bottom: 4px solid #F58220;
   }
 
+  .navbar-brand .nomeempresa {
+    padding: 0;
+  }
+
   .navbar .navbar-brand {
     padding: 0;
   }
@@ -1566,6 +1570,11 @@ nav a {
 }
 
 @media screen and (max-width: 991px) {
+
+  .navbar {
+    padding: 0;
+  }
+
   .navbar-collapse {
     position: fixed;
     display: block !important;
@@ -1598,6 +1607,10 @@ nav a {
     position: relative;
     z-index: 3;
     height: 95%;
+  }
+
+  .navbar-brand .nomeempresa {
+    padding: 0;
   }
 
   .navbar-collapse .navbar-nav>.nav-item:last-child {
