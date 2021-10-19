@@ -202,7 +202,6 @@ a:hover {
 span {
   font-size: 20px;
   color: black;
-  background-color: #eca160;
   border: none;
 }
 
@@ -1035,7 +1034,7 @@ display: none;
 
   .containerTextCard {
     width: 150px;
-  }
+  } 
   /* .containerTextCard h4{
     width: 140px;
   } */
@@ -1054,6 +1053,14 @@ display: none;
     justify-content: space-between;
     margin: auto;
     width: 90vw;
+  }
+
+  #projetos button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 170px;
   }
 
 }
