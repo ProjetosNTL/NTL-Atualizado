@@ -4,10 +4,8 @@
 @import "../lightmode/slide-cardlight.css";
 @import "../lightmode/stylelight.css";
 @import "../lightmode/servicos.css";
-@import "scrollanimado.css";
 @import "demo/css/style.css";
 @import "../dist/aos.css";
-@import "./slide-card.css";
 @import "../assets/fonts/FuturaPTBold.otf";
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css");
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');

@@ -792,7 +792,7 @@ nav a {
 }
 
 .container-btn-modal button div {
-  width: 150px;
+  width: 200px;
 }
 
 .containerTextCard {
@@ -1544,6 +1544,7 @@ nav a {
     display: flex;
     margin: 0 auto;
     margin-top: 45px;
+    cursor: pointer;
   }
 
   .social-media-list a {
