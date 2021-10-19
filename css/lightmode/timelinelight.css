@@ -342,6 +342,10 @@ a {
   margin: auto;
 }
 
+.modalTelefone .modal-dialog {
+  width: 250px;
+}
+
 @media only screen and (min-width: 768px) {
   .cd-horizontal-timeline .events-content h2 {
     font-size: 30px;
@@ -353,6 +357,11 @@ a {
   .cd-horizontal-timeline .events-content p {
     font-size: 1.8rem;
   }
+
+  .modalTelefone .modal-dialog {
+    width: auto;
+  }
+
 }
 
 @-webkit-keyframes cd-enter-right {

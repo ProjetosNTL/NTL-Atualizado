@@ -3675,7 +3675,7 @@
         <img src="img/o-email.png" />
         <span>E-mail</span>
       </a>
-      <a class="social-media" href="tel:+55(21)0000-0000" target="_blank">
+      <a class="social-media" target="_blank" data-toggle="modal" data-target="#modalTelefone">
         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#5C5C5C">
           <path d="M0 0h24v24H0z" fill="none" />
           <path
@@ -3683,6 +3683,24 @@
         </svg>
         <span>Telefone</span>
       </a>
+
+       <div class="modal fade" id="modalTelefone" tabindex="-1" role="dialog" aria-labelledby="titulomodal"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="titulomodal">Telefone</h4>                  
+                </div>
+                <div class="modal-body">                 
+                  <a  href="tel:+55(21)0000-0000" > São Paulo</a> <br>
+                  <a  href="tel:+55(21)0000-0000" > Rio de Janeiro </a> <br>                 
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn " data-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
     </div>
   </section>
 
