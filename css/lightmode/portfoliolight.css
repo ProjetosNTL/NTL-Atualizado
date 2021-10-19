@@ -121,15 +121,25 @@ body, ul, li {
 }
 
 .portfolio-btn {
-  background-color: #7aa0cc;
+  background-color: transparent;
   border-radius: 10px;
   height: 50px;
   max-width: 400px;
   transition: 0.3s;
 }
 
-.portfolio-btn:hover {
-  background-color: #607fa1;
+.portfolio-btn .card-4-projetos {
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.portfolio-btn .card-4-projetos h4 {
+  color: black;
+  margin: 0;
+} 
+
+.portfolio-btn .card-4-projetos:hover {
+  box-shadow: 0 0 15px rgb(0 0 0 / 28%);
 }
 
 .portfolio-btn h4, .portfolio-btn-cel h4 {
