@@ -355,6 +355,29 @@ a {
   width: 250px;
 }
 
+@media screen and ( max-width: 768px ){
+
+  .cd-timeline-navigation {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 75px;
+    z-index: 1;
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .cd-timeline-navigation button {
+    background-color: #F58220;
+    color: #fff;
+    font-size: 18px;    
+    padding: 5px 8px;
+    border-radius: 100%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.344);
+    border: 2px solid rgba(0, 0, 0, 0.631);
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .cd-horizontal-timeline .events-content h2 {
     font-size: 30px;
