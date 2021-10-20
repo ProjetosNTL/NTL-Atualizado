@@ -832,6 +832,10 @@ a:link {
   display: none;
 }
 
+#respostaUfrrj ul li {
+  list-style-type: disc;
+}
+
 @media screen and (max-width:768px) {
 
   #openMenu {
