@@ -360,10 +360,10 @@ a {
   display: flex;
   justify-content: space-between;
   position: relative;
-  bottom: 120px;
+  bottom: 155px;
   z-index: 1;
   width: 110%;
-  right: -55px;
+  right: 50px;
   padding: 0 15px;
 }
 
