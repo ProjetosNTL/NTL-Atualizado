@@ -1118,6 +1118,11 @@ a:link {
     margin: auto;
     width: 170px;
   }
+  #projetos .modal-footer .btn,
+  #servicos .modal-footer .btn  {
+    display: block;
+    width: auto;
+  }
 
 }
 
