@@ -15,7 +15,7 @@ li {
   padding: 0px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .grid-container {
     grid-template-columns: 1fr;
   }
@@ -43,6 +43,12 @@ li {
 
   .copy {
     margin-bottom: 0px;
+  }
+
+  .portfolio-btn-cel h4 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
   }
 }
 
@@ -72,6 +78,13 @@ li {
     grid-gap: 0;
     margin-bottom: 0;
   }
+
+  .portfolio-btn h4 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+  }
+
 }
 
 .portfolio h2 {
@@ -148,13 +161,6 @@ li {
 
 .portfolio-btn .card-4-projetos:hover {
   box-shadow: 0 0 15px rgb(0 0 0 / 28%);
-}
-
-.portfolio-btn h4,
-.portfolio-btn-cel h4 {
-  color: white;
-  font-size: 20px;
-  margin-bottom: 15px;
 }
 
 .portfolio-btn-cel {
