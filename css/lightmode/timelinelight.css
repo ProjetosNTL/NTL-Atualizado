@@ -356,12 +356,14 @@ a {
 }
 
 .cd-timeline-navigation {
+  position: relative;
   display: flex;
   justify-content: space-between;
   position: relative;
-  bottom: 75px;
+  bottom: 120px;
   z-index: 1;
-  width: 100%;
+  width: 110%;
+  right: -55px;
   padding: 0 15px;
 }
 
