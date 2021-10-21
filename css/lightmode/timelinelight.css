@@ -377,6 +377,210 @@ a {
   border: 2px solid rgba(0, 0, 0, 0.631);
 } 
 
+/* Projetos Realizados - Padrão Modal */
+#respostaDefesaCivil ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#respostaIncra ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#respostaInca ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#respostaPositivo ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#respostaSenac ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#respostaAns ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#respostaHp ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#respostaIphan ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#respostaLcc ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#respostaConselhoRegional ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#respostaCorecon ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#respostaIbm ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#respostaHpPetrobras ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#respostaCiaEnergetica ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#respostaEmc2 ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#respostaTorino ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#respostaFinep ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#respostaPjerj ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+#respostaPjerj ul li li {
+  list-style: circle;
+  /* margin-left: 9px; */
+}
+
+#respostaUfrrjNI ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+#respostaUfrrjNI ul li li {
+  list-style: circle;
+  /* margin-left: 9px; */
+}
+
+#respostaUfrrjS ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+#respostaUfrrjS ul li li {
+  list-style: circle;
+  /* margin-left: 9px; */
+}
+
+#respostaJohnson ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+#respostaJohnson ul li li {
+  list-style: circle;
+  /* margin-left: 9px; */
+}
+
+#respostaNucle ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+#respostaNucle ul li li {
+  list-style: circle;
+  /* margin-left: 9px; */
+}
+
+#respostaMoeda ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+#respostaMoeda ul li li {
+  list-style: circle;
+  /* margin-left: 9px; */
+}
+
+#respostaUfrj ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+#respostaUfrj ul li li {
+  list-style: circle;
+  /* margin-left: 9px; */
+}
+
+#respostaUfabc ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+#respostaUfabc ul li li {
+  list-style: circle;
+  /* margin-left: 9px; */
+}
+
+#respostaDnit ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+#respostaDnit ul li li {
+  list-style: circle;
+  /* margin-left: 9px; */
+}
+
+#respostaCepel ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+#respostaCepel ul li li {
+  list-style: circle;
+  /* margin-left: 9px; */
+}
+
+#respostaInfra ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+#respostaInfra ul li li {
+  list-style: circle;
+  /* margin-left: 9px; */
+}
+
+#respostaEmop ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+#respostaEmop ul li li {
+  list-style: circle;
+  /* margin-left: 9px; */
+}
+
+#respostaCps ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+#respostaCps ul li li {
+  list-style: circle;
+  /* margin-left: 9px; */
+}
+/* Fim Projetos Realizados - Padrão Modal */
+
 @media screen and ( max-width: 768px ){
 
   .cd-timeline-navigation {
