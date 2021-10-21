@@ -455,6 +455,22 @@ a:link {
   width: 95px;
 }
 
+#empresa {
+  padding: 40px 0 0 0 !important;
+}
+
+#servicos {
+  padding: 35px 0 0 0 !important;
+}
+
+#clientes {
+  padding: 40px 0 0 0 !important;
+}
+
+#projetos {
+  padding: 45px 0 0 0 !important;
+}
+
 .card-servicos {
   background-color: white;
   border-radius: 5px;
