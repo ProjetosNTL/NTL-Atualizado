@@ -714,6 +714,18 @@ a:link {
   background-color: #F58220;
 }
 
+#whatsapp:hover {
+  padding: 16px 80px;
+}
+
+#instagram:hover {
+  padding: 16px 80px;
+}
+
+#linkedin:hover {
+  padding: 16px 90px;
+}
+
 .social-media:hover i {
   transform: translateY(100px);
 }
