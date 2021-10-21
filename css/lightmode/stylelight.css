@@ -456,19 +456,19 @@ a:link {
 }
 
 #empresa {
-  padding: 40px 0 0 0 !important;
+  padding: 40px 0 0 0 ;
 }
 
 #servicos {
-  padding: 8.5% 0 0 0 !important;
+  padding: 8.5% 0 0 0 ;
 }
 
 #clientes {
-  padding: 40px 0 0 0 !important;
+  padding: 40px 0 0 0 ;
 }
 
 #projetos {
-  padding: 45px 0 0 0 !important;
+  padding: 45px 0 0 0 ;
 }
 
 .card-servicos {
@@ -534,7 +534,7 @@ a:link {
   transition: 0.3s;
   justify-content: center;
   align-items: center;
-  margin: 0 4%;
+  margin: 0 ;
   border: 2px solid #8d8985;
   width: 250px;
   display: flex;
@@ -867,7 +867,7 @@ a:link {
 @media screen and (max-width:768px) {
 
   #servicos {
-    padding-top: 20.5% ​0 0 0 !important;
+    padding: 20.5% 0 0 0​;
   }
 
   #openMenu {
