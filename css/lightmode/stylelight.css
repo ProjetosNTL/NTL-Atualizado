@@ -122,6 +122,10 @@ button:focus {
   border-radius: 60px;
 }
 
+.pergunta .subtitulo-modal p span {
+  font-size: 1.5rem;
+}
+
 .troca--sombra+label:before,
 .troca--sombra+label:after {
   display: block;
