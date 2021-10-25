@@ -910,11 +910,6 @@ a:link {
   padding: 0 0 0 30px;
 }
 
-#respostaUfrrj ul li {
-  list-style-type: disc;
-}
-
-
 @media screen and (max-width:768px) {
 
   #servicos {
