@@ -865,9 +865,46 @@ a:link {
   display: none;
 }
 
+#respostaHp ul,
+#respostaDefesaCivil ul,
+#respostaLcc ul,
+#respostaConselhoRegional ul,
+#respostaIncra ul,
+#respostaInca ul,
+#respostaIphan ul,
+#respostaTorino ul,
+#respostaIbm ul,
+#respostaAns ul,
+#respostaServers ul,
+#respostaSolution ul,
+#respostaMichelin ul,
+#respostaHpPetrobras ul,
+#respostaCiaEnergetica ul,
+#respostaEmc2 ul,
+#respostaFinep ul,
+#respostaSenac ul,
+#respostaPjerj ul,
+#respostaDnit ul,
+#respostaCepel ul,
+#respostaEmop ul,
+#respostaInfra ul,
+#respostaCps ul,
+#respostaUfrrjNI ul,
+#respostaJohnson ul,
+#respostaNucle ul,
+#respostaUfrj ul,
+#respostaUfabc ul,
+#respostaMoeda ul,
+#respostaUfrrjS ul,
+#respostaPositivo ul,
+#respostaCorecon ul {
+  padding: 0 0 0 30px;
+}
+
 #respostaUfrrj ul li {
   list-style-type: disc;
 }
+
 
 @media screen and (max-width:768px) {
 
