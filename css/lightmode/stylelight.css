@@ -583,8 +583,9 @@ a:link {
 
 .icone {
   margin: 15px;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 30px;
+  object-fit: contain;
 }
 
 .icone2 {
@@ -1023,8 +1024,9 @@ a:link {
   }
 
   .icone {
-    width: 30px;
-    height: 30px;
+    min-width: 50px;
+    min-height: 30px;
+    object-fit: contain;
   }
 
   .PARCERIAS {
@@ -1266,8 +1268,9 @@ a:link {
   }
 
   .icone {
-    width: 30px;
-    height: 30px;
+    min-width: 50px;
+    min-height: 30px;
+    object-fit: contain;
   }
 
   .PARCERIAS {
