@@ -871,7 +871,10 @@ a:link {
 @media screen and (max-width:768px) {
 
   #servicos {
-    padding: 20.5% 0 0 0​;
+    padding-left: 20px;
+  }
+  .titulo {
+    padding: 0 0 0 20px;
   }
 
   #openMenu {
@@ -899,7 +902,7 @@ a:link {
 
   .texto {
     font-size: 1.5rem;
-    padding: 0 5px;
+    padding: 0 10px;
   }
 
 
@@ -918,7 +921,7 @@ a:link {
     flex-direction: column;
     gap: 10px;
     margin: auto;
-    width: 90vw;
+    width: 81vw;
   }
 
 }
