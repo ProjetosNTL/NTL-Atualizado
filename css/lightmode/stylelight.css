@@ -920,7 +920,7 @@ a:link {
   }
 
   #openMenu {
-    display: block;
+    display: none;
     border: none;
     background-color: transparent;
     font-size: 25px;
