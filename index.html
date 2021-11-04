@@ -2207,12 +2207,7 @@
       </div>
       <div class="text-center">
         <div class="text-center p-3">
-          &copy;NTL, Todos os direitos reservados, 1988 -
-          <script language="javascript" type="text/javascript">
-            now = new Date();
-            document.write(now.getFullYear());
-          </script>
-          .
+          &copy;NTL, Todos os direitos reservados, 1988 - <slot id="dataAtual"></slot>.
         </div>
       </div>
     </footer>
@@ -2228,6 +2223,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
   <script src="dist/aos.js"></script>
   <script>
+
+    const now = new Date();
+    $('#dataAtual').append(now.getFullYear());
+
     $('#openMenu').on('click', () => {
       document.querySelector('#navigation').style.marginRight = '48vw';
     })
@@ -2235,6 +2234,7 @@
     $('#closeMenu').on('click', () => {
       document.querySelector('#navigation').style.marginRight = '0'
     })
+
   </script>
 </body>
 </html>
