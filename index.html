@@ -2223,9 +2223,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
   <script src="dist/aos.js"></script>
   <script>
-
-    const now = new Date();
-    $('#dataAtual').append(now.getFullYear());
+    
+    $('#dataAtual').append( new Date().getFullYear());
 
     $('#openMenu').on('click', () => {
       document.querySelector('#navigation').style.marginRight = '48vw';

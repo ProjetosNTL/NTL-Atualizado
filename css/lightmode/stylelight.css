@@ -498,7 +498,7 @@ a:link {
   width: 70vw;
   margin: 0 5vw;
   display: grid;
-  grid-template-columns: 1.2fr 1.1fr 1.1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 0px 0px;
   grid-template-areas:
@@ -538,7 +538,7 @@ a:link {
   transition: 0.3s;
   justify-content: center;
   align-items: center;
-  margin: 0 ;
+  margin: auto;
   border: 2px solid #8d8985;
   width: 250px;
   display: flex;
@@ -1294,6 +1294,7 @@ a:link {
   }
 
   .textoinicio {
+    margin: 0 auto !important;
     font-size: 30px;
   }
 
