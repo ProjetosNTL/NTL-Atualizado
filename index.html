@@ -17,7 +17,7 @@
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 
-<body class="index-page sidebar-collapse">
+<body class="index-page sidebar-collapse modal-open">
   <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="300">
     <div class="container">
       <div class="navbar-translate">
@@ -466,7 +466,7 @@
         <div class="row featurette" style="margin-top: 20px;">
           <div class="order-1 col-md-6 order-md-2 b-3" id="perguntasFrequentes" data-children=".pergunta">
 
-            <div class="container-btn-servicos">
+            <div class="container-btn-servicos" style="margin:0">
 
               <!-- TIC -->
               <button class="col col-md-12 umBtn" data-toggle="modal" data-target="#modal1">
@@ -2213,18 +2213,334 @@
     </footer>
   </section>
 
+  <style scoped>
+    .showModalVagas{
+      display: block;
+      padding-right: 17px;
+    }
+
+    .showModalVagasImg {
+      max-width: 450px;
+    }
+
+    @media only screen and (max-width: 425px ){
+      .showModalVagasImg {
+        max-width: 80vw;
+      }
+    }
+
+  </style>
+
+  <div class="modal fade show" id="modalVagas" tabindex="-1" role="dialog" aria-labelledby="titulomodal" aria-hidden="true"
+  role="dialog">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">     
+      <div class="modal-body" style="display: flex;justify-content: center;">       
+        <img src="./img/vaga-02-2022.jpeg" class="showModalVagasImg">      
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn" id="openModalVagas" data-dismiss="modal">Vagas</button>
+        <button type="button" class="btn" id="closeModalVagas" data-dismiss="modal" style="background-color: #555555;">Fechar</button>
+      </div>
+    </div>
+  </div>
+  </div>  
+
+  <div class="modal fade show" id="modalVagasLista" tabindex="-1" role="dialog" aria-labelledby="titulomodal" aria-hidden="true"
+  role="dialog">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">     
+      <div class="modal-body">
+        <h4 style="text-align: center;margin-top: 10px;">É importante que os interessados enviem seus currículos com todas as suas qualificações, pois poderão ser enquadrados em vagas superiores a esta. </h4>
+        <hr >
+
+        <p style="align-items: center;" class="pergunta subtitulo-modal" data-toggle="collapse" data-parent="#perguntasFrequentes" href="#resposta1" aria-expanded="true"  aria-controls="pergunta1">
+          <img class="icone" src="img/system.png">
+          <b>Analista de Desenvolvimento de Sistemas nível PLENO ( JAVA ) &nbsp; &darr; </b>
+        </p>
+        <div id="resposta1" class="collapse" role="tabpanel">
+          <ul>
+            <h5>Descrição da Vaga:</h5>
+            <hr style="width: 5vw;">
+            <li>Dimensionar requisitos e funcionalidades dos sistemas;</li>
+            <li>Montar protótipos dos sistemas;</li>
+            <li>Codificar programas nas linguagens de programação definidos;</li>
+            <li>Testar sistemas;</li>
+            <li>Implantar sistemas nos padrões;</li>
+            <li>Corrigir falhas nos sistemas;</li>
+            <li>Descrever processos e elaborar diagramas, documentando as soluções.</li>            
+          </ul>
+
+          <br>
+
+          <ul>
+            <h5>Formação Acadêmica</h5>
+            <hr style="width: 5vw;">
+            <li>Graduação em tecnologia da informação ou pós-graduação (especialização, mestrado ou doutorado) em tecnologia da informação, de no mínimo 360 (trezentos e sessenta) horas, em curso reconhecido pelo MEC.</li>
+            <li>Experiência mínima de 05 anos na área.</li>
+          </ul>
+
+          <br>
+
+          <ul>
+            <h5>Conhecimentos necessários</h5>
+            <hr style="width: 5vw;">
+            <li>Conhecimentos nas linguagens Javascript e TypeScript;</li>
+            <li>Princípios e práticas de desenvolvimento de software Ágil, incluindo o Manifesto Ágil, Scrum, Extreme Programming (XP) e Kanban;</li>
+            <li>AngularJS, Angular, Bootstrap e React;</li>
+            <li>Java Enterprise: JEE 6 ou superior, JSE 8 ou superior, JSF versões 1.2 e 2.x, Hibernate 3 ou superior e Spring Framework 3 ou superior;</li>
+            <li>Java Enterprise J2EE, JSE 5, JSF 1.1, TopLink, Struts 1.1, EJB 2 ou 3;</li>
+            <li>JBoss Seam Framework;</li>
+          </ul>
+          <br>
+
+          <ul >
+            <hr style="width: 32vw;">
+            <ul style="text-align: center;"> <b>Contratação CLT - Salário R$ 7.526,14 - Vale Refeição - Benefícios</b></ul>
+            <hr style="width: 32vw;">
+          </ul>          
+
+        </div>
+
+        <p style="align-items: center;" class="pergunta subtitulo-modal" data-toggle="collapse" data-parent="#perguntasFrequentes" href="#resposta2" aria-expanded="true"  aria-controls="pergunta1">
+          <img class="icone" src="img/system.png">
+          <b>Analista de Desenvolvimento de Sistemas nível PLENO ( .NET e VB6 ) &nbsp; &darr; </b>
+        </p>
+        <div id="resposta2" class="collapse" role="tabpanel">
+          <ul>
+            <h5>Descrição da Vaga:</h5>
+            <hr style="width: 5vw;">
+            <li>Levantar as necessidades do usuário;</li>
+            <li>Dimensionar requisitos e funcionalidades dos sistemas;</li>
+            <li>Montar protótipos dos sistemas;</li>
+            <li>Codificar programas nas linguagens de programação definidos;</li>
+            <li>Testar sistemas;</li>
+            <li>Implantar sistemas nos padrões;</li>
+            <li>Corrigir falhas nos sistemas;</li>
+            <li>Descrever processos e elaborar diagramas, documentando as soluções.</li>
+          </ul>
+
+          <br>
+
+          <ul>
+            <h5>Formação Acadêmica</h5>
+            <hr style="width: 5vw;">
+            <li>Graduação em tecnologia da informação ou pós-graduação (especialização, mestrado ou doutorado) em tecnologia da informação, de no mínimo 360 (trezentos e sessenta) horas, em curso reconhecido pelo MEC.</li>
+            <li>Experiência mínima de 05 anos na área.</li>
+          </ul>
+
+          <br>
+
+          <ul>
+            <h5>Conhecimentos necessários</h5>
+            <hr style="width: 5vw;">
+            <li>Linguagem Visual Basic 6;</li>
+            <li>Linguagem Vb.Net ou C# (Framework 2.0 e superiores);</li>
+            <li>Linguagem ASP.Net MVC;</li>
+            <li>Princípios e práticas de desenvolvimento de software Ágil, incluindo o Manifesto Ágil, Scrum, Extreme Programming (XP) e Kanban.</li>
+          </ul>
+          <br>
+
+          <ul >
+            <hr style="width: 32vw;">
+            <ul style="text-align: center;"> <b>Contratação CLT - Salário R$ 7.526,14 - Vale Refeição - Benefícios</b></ul>
+            <hr style="width: 32vw;">
+          </ul>          
+
+        </div>
+
+        <p style="align-items: center;" class="pergunta subtitulo-modal" data-toggle="collapse" data-parent="#perguntasFrequentes" href="#resposta3" aria-expanded="true"  aria-controls="pergunta1">
+          <img class="icone" src="img/system.png">
+          <b>Analista de Desenvolvimento de Sistemas nível SÊNIOR &nbsp; &darr; </b>
+        </p>
+        <div id="resposta3" class="collapse" role="tabpanel">
+          <ul>
+            <h5>Descrição da Vaga:</h5>
+            <hr style="width: 5vw;">
+            <li>Levantar as necessidades do usuário e propor soluções;</li>
+            <li>Dimensionar requisitos e funcionalidades dos sistemas;</li>
+            <li>Desenvolver a arquitetura dos sistemas;</li>
+            <li>Modelar dados;</li>
+            <li>Montar protótipos dos sistemas;</li>
+            <li>Desenvolver full stack e codificar programas nas linguagens de programação definidas;</li>
+            <li>Testar sistemas e configurar ferramentas de teste automatizado</li>
+            <li>Implantar sistemas nos padrões adotados;</li>
+            <li>Corrigir falhas nos sistemas;</li>
+            <li>Descrever processos e elaborar diagramas, documentando as soluções.</li>
+            <li>Definição de indicadores de BI.</li>
+            <li>Utilizar técnicas de Machine Learning, Deep Learning e processamento de linguagem natural.</li>
+            <li>Implantar esteira de entregas contínuas utilizando metodologias ágeis como o DEVOPS.</li>
+            <li>Auxiliar o Analista de Desenvolvimento pleno na solução de problemas mais complexos, que sejam do seu domínio de conhecimento.</li>
+          </ul>
+
+          <br>
+
+          <ul>
+            <h5>Formação Acadêmica</h5>
+            <hr style="width: 5vw;">
+            <li>Graduação em tecnologia da informação ou pós-graduação (especialização, mestrado ou doutorado) em tecnologia da informação, de no mínimo 360 (trezentos e sessenta) horas, em curso reconhecido pelo MEC.</li>
+            <li>Experiência mínima de 08 anos na área.</li>
+            <li>Certificações desejáveis</li>
+            <ul>
+              <li>Oracle Certified Professional;</li>
+              <li>Java SE 8 Programmer Certification;</li>
+              <li>Certificação Microsoft Certified Technology Specialist .NET Framework 3.5.</li>
+            </ul>
+          </ul>
+
+          <br>
+
+          <ul>
+            <h5>Conhecimentos necessários</h5>
+            <hr style="width: 5vw;">
+            <li>Análise de requisitos funcionais e não-funcionais, padrões de projeto (enterprise integration patterns, design patterns, microservices patterns), modelagem de dados relacional;            </li>
+            <li>Princípios e práticas de desenvolvimento de software Ágil, incluindo o Manifesto Ágil, Scrum, Extreme Programming (XP) e Kanban;</li>
+            <li>AngularJS, Angular, Bootstrap e React;</li>
+            <li>Linguagem Visual Basic 6;</li>
+            <li>Linguagem Vb.Net ou C# (Framework 2.0 e superiores);</li>
+            <li>Linguagem ASP.Net MVC;</li>
+            <li>Springboot, Spring MVC;</li>
+            <li>Java Enterprise: JEE 6 ou superior, JSE 8 ou superior, JSF versões 1.2 e 2.x, Hibernate 3 ou superior e Spring Framework 3 ou superior;
+                Java Enterprise J2EE, JSE 5, JSF 1.1, TopLink, Struts 1.1, EJB 2 ou 3;
+            </li>
+            <li>JBoss Seam Framework;</li>
+            <li>Docker;</li>
+            <li>Kubernetes e Okd;</li>
+            <li>Técnicas de Machine Learning, Deep Learning e processamento de linguagem natural;</li>
+            <li>Ext.Net (2.0 e superiores);</li>
+            <li>Python 3 ou superior;</li>
+            <li>Conhecimentos avançados nas seguintes ferramentas de BI: Oracle Discoverer, Cognos, Qlik e Microsoft Power BI;</li>
+            <li>Análise e desenvolvimento de relatórios de BI e dashboard;</li>
+          </ul>
+          <br>
+
+          <ul >
+            <hr style="width: 32vw;">
+            <ul style="text-align: center;"> <b>Contratação CLT - Salário R$ 9.822,46 - Vale Refeição - Benefícios</b></ul>
+            <hr style="width: 32vw;">
+          </ul>          
+
+        </div>
+
+        <p style="align-items: center;" class="pergunta subtitulo-modal" data-toggle="collapse" data-parent="#perguntasFrequentes" href="#resposta4" aria-expanded="true"  aria-controls="pergunta1">
+          <img class="icone" src="img/system.png">
+          <b>Analista de Desenvolvimento de Sistemas nível MASTER &nbsp; &darr; </b>
+        </p>
+        <div id="resposta4" class="collapse" role="tabpanel">
+          <ul>
+            <h5>Descrição da Vaga:</h5>
+            <hr style="width: 5vw;">
+            <li>Levantar as necessidades do usuário, negociar e propor soluções inovadoras;         </li>
+            <li>Sugerir e definir integrações entre os sistemas existentes no TJERJ;            </li>
+            <li>Solucionar problemas e executar tarefas de alta complexidade;            </li>
+            <li>Dimensionar requisitos e funcionalidades dos sistemas e de microsserviços;            </li>
+            <li>Planejar e Desenvolver a arquitetura dos sistemas;</li>
+            <li>Modelar dados;            </li>
+            <li>Montar protótipos dos sistemas;</li>
+            <li>Desenvolver full stack e codificar programas nas linguagens de programação definidos pelo CONTRATANTE;            </li>
+            <li>Otimizar os sistemas para torná-los mais eficientes;</li>
+            <li>Testar sistemas (testes unitários e testes integrados) e configurar ferramentas de teste automatizado;</li>
+            <li>Implantar sistemas nos padrões do CONTRATANTE;</li>
+            <li>Corrigir falhas nos sistemas;</li>
+            <li>Descrever processos e elaborar diagramas, documentando as soluções.</li>
+            <li>Definir de indicadores de BI.</li>
+            <li>Utilizar técnicas de Machine Learning, Deep Learning e processamento de linguagem natural.</li>
+            <li>Implantar esteira de entregas contínuas utilizando metodologias ágeis como o DEVOPS.</li>
+            <li>Disseminar o conhecimento técnico para os demais desenvolvedores;            </li>
+            <li>Auxiliar os Analistas de Desenvolvimento pleno e sênior na solução de problemas mais complexos, que sejam do seu domínio de conhecimento.</li>
+          </ul>
+
+          <br>
+
+          <ul>
+            <h5>Formação Acadêmica</h5>
+            <hr style="width: 5vw;">
+            <li>Graduação em tecnologia da informação ou pós-graduação (especialização, mestrado ou doutorado) em tecnologia da informação, de no mínimo 360 (trezentos e sessenta) horas, em curso reconhecido pelo MEC.</li>
+            <li>Experiência mínima de 10 anos na área.</li>
+            <li>Certificações desejáveis</li>
+            <ul>
+              <li>Scrum.Org: Professional Scrum Master – PSM: PSM I; PSM II ou PSM III;              </li>
+              <li>Scrum Alliance: Certified Scrum Master – CSM;              </li>
+              <li>Scrum Study: Scrum Master Certified – SMC;</li>
+              <li>EXIN: Agile Scrum Master – ASM;</li>
+              <li>Oracle Certified Professional;</li>
+              <li>Certificação Microsoft Certified Technology Specialist .NET Framework 3.5;    </li>
+              <li>Java SE 8 Programmer Certification.</li>
+            </ul>
+          </ul>
+
+          <br>
+
+          <ul>
+            <h5>Conhecimentos necessários</h5>
+            <hr style="width: 5vw;">
+            <li>Princípios e práticas de desenvolvimento de software Ágil, incluindo o Manifesto Ágil, Scrum, Extreme Programming (XP) e Kanban;</li>
+            <li>AngularJS, Angular, Bootstrap e React;</li>
+            <li>Linguagem Visual Basic 6;</li>
+            <li>Linguagem Vb.Net, .Net Core ou C# (Framework 2.0 e superiores);</li>
+            <li>Linguagem ASP.Net MVC;</li>
+            <li>Java Enterprise: JEE 6 ou superior, JSE 8 ou superior, JSF versões 1.2 e 2.x, Hibernate 3 ou superior e Spring Framework 3 ou superior; </li>
+            <li>Java Enterprise J2EE, JSE 5, JSF 1.1, TopLink, Struts 1.1, EJB 2 ou 3;</li>
+            <li>Docker;            </li>
+            <li>Kubernetes e Okd;</li>
+            <li>Ext.Net (2.0 e superiores);</li>
+            <li>Microsoft Windows Crypto API (Windows 7 e superiores);</li>
+            <li>Python 3 ou superior;</li>
+            <li>Conhecimentos avançados nas seguintes ferramentas de BI: Oracle Discoverer, Cognos, Qlik e Microsoft Power BI;  </li>
+            <li>Análise e desenvolvimento de relatórios de BI e dashboard.</li>
+          </ul>
+          <br>
+
+          <ul >
+            <hr style="width: 32vw;">
+            <ul style="text-align: center;"> <b>Contratação CLT - Salário R$ 13.157,49 - Vale Refeição - Benefícios</b></ul>
+            <hr style="width: 32vw;">
+          </ul>          
+
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn" id="closeModalVagasLista" data-dismiss="modal" style="background-color: #555555;">Fechar</button>
+      </div>
+    </div>
+  </div>
+  </div>  
+
+  
   <script type="text/javascript" src="js/geral.js"></script>
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="js/timeline.js"></script>
-
+  
   <script src="https://cdn.rawgit.com/kimmobrunfeldt/progressbar.js/0.5.6/dist/progressbar.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
   <script src="dist/aos.js"></script>
   <script>
     
+    $( document ).ready( function() {      
+      $('#modalVagas').addClass("showModalVagas")     
+    })
+
     $('#dataAtual').append( new Date().getFullYear());
+
+    $('#closeModalVagas').on('click', () => {
+      $('body').removeClass("modal-open")
+      $('#modalVagas').removeClass("showModalVagas")
+      $('#shadowModalVagas').remove()
+    })
+    
+    $('#closeModalVagasLista').on('click', () => {
+      $('body').removeClass("modal-open")
+      $('#modalVagasLista').removeClass("showModalVagas")
+      $('#shadowModalVagas').remove()
+    })
+
+    $('#openModalVagas').on('click', () => {     
+      $('#modalVagas').removeClass("showModalVagas")
+      $('#modalVagasLista').addClass("showModalVagas")
+    })
 
     $('#openMenu').on('click', () => {
       document.querySelector('#navigation').style.marginRight = '48vw';
@@ -2235,5 +2551,6 @@
     })
 
   </script>
+<div class="modal-backdrop fade show" id="shadowModalVagas"></div>
 </body>
 </html>
