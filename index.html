@@ -2501,6 +2501,7 @@
 
       </div>
       <div class="modal-footer">
+        <button type="button" class="btn" id="backModalVagas" data-dismiss="modal">Voltar</button>
         <button type="button" class="btn" id="closeModalVagasLista" data-dismiss="modal" style="background-color: #555555;">Fechar</button>
       </div>
     </div>
@@ -2529,6 +2530,11 @@
       $('body').removeClass("modal-open")
       $('#modalVagas').removeClass("showModalVagas")
       $('#shadowModalVagas').remove()
+    })
+    
+    $('#backModalVagas').on('click', () => {
+      $('#modalVagasLista').removeClass("showModalVagas")
+      $('#modalVagas').addClass("showModalVagas")
     })
     
     $('#closeModalVagasLista').on('click', () => {
