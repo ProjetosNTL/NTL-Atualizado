@@ -2521,7 +2521,8 @@
   <script>
     
     $( document ).ready( function() {      
-      $('#modalVagas').addClass("showModalVagas")     
+      $('body').removeClass("modal-open")
+    /*   $('#modalVagas').addClass("showModalVagas")      */
     })
 
     $('#dataAtual').append( new Date().getFullYear());
@@ -2557,6 +2558,6 @@
     })
 
   </script>
-<div class="modal-backdrop fade show" id="shadowModalVagas"></div>
+<!-- <div class="modal-backdrop fade show" id="shadowModalVagas"></div> -->
 </body>
 </html>
